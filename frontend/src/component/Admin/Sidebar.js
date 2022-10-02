@@ -15,7 +15,7 @@ import RateReviewIcon from "@mui/icons-material/RateReview";
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <Link to="/home">
+      <Link to="/">
         <img src={logo} alt="Ecommerce" />
       </Link>
       <Link to="/admin/dashboard">
